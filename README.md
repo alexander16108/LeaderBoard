@@ -57,7 +57,7 @@ npm test
 
 ## Authors
 
-👤 **Tendai Nyandoro**
+👤 **Alexander Odufuye**
 
 - GitHub: [@Alexander](https://github.com/Alexander16108)
 - instagram: [@Alexander Mayowa](https://instagram.com/codingrex)
