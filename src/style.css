@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+  padding:0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Marck Script', cursive;
+}
+
+
+/* to make split the two sections */
+
+.split {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  padding: 2em;
+}
+
+form {
+  width: 60%;
+  padding: 1em;
+}
+
+.p-1 {
+  margin: 4px;
+  padding: 10px;
+}
+
+.b-1 {
+  margin: 0% 20px;
+  padding: 7px;
+  box-shadow: 3px 3px 3px 1px rgb(36, 35, 35);
+}
+
+.wd{
+  width: 20%;
+  justify-self: end;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
