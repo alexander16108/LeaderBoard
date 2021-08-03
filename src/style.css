@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
-
 * {
-  padding:0%;
+  padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Oswald', sans-serif;
 }
-
-
-/* to make split the two sections */
 
 .split {
   align-items: center;
@@ -26,11 +21,6 @@
   padding: 2em;
 }
 
-form {
-  width: 60%;
-  padding: 1em;
-}
-
 .p-1 {
   margin: 4px;
   padding: 10px;
@@ -40,14 +30,30 @@ form {
   margin: 0% 20px;
   padding: 7px;
   box-shadow: 3px 3px 3px 1px rgb(36, 35, 35);
+  border: 1px solid black;
 }
 
 .wd{
-  width: 20%;
-  justify-self: end;
+float: right;
 }
 
 .head {
   display: flex;
   flex-direction: row;
+}
+
+li {
+  color: black;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(180, 180, 180);
+}
+
+li:nth-child(even) {
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
 }
