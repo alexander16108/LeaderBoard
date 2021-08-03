@@ -34,12 +34,20 @@
 }
 
 .wd {
-  float: right;
+  position: absolute;
+  top: 38%;
+  right: 11%;
+  width: 5%;
+}
+
+.ordered-score {
+  border: 1px solid black;
 }
 
 .head {
   display: flex;
   flex-direction: row;
+  margin: 10px;
 }
 
 li {
@@ -56,4 +64,5 @@ li:nth-child(even) {
 
 ul {
   list-style: none;
+  padding: 0%;
 }
