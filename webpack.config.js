@@ -1,46 +1,28 @@
 const path = require('path');
-const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const options = {};
-
 module.exports = {
-  mode: 'development',
-
   entry: './src/index.js',
+  mode: 'development',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: '/',
   },
+  devtool: 'inline-source-map',
   plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-    new WebpackManifestPlugin(options),
+    new HtmlWebpackPlugin({}),
   ],
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
-      },
-      {
-        test: /\.html$/i,
-        loader: 'html-loader',
-      },
-      {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-      },
-    ],
-  },
-  devtool: 'source-map',
-
   devServer: {
     contentBase: './dist',
   },
+ module: {
+   rules: [
+     {
+       test: /\.css$/i,
+       use: ['style-loader', 'css-loader'],
+     },
+   ],
+ },
 };
