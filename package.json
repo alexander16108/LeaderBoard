@@ -1,0 +1,26 @@
+{
+  "name": "leaderboard-1",
+  "version": "1.0.0",
+  "description": "![Microverse](https://img.shields.io/badge/Microverse-blueviolet)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander16108/LeaderBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander16108/LeaderBoard/issues"
+  },
+  "homepage": "https://github.com/alexander16108/LeaderBoard#readme",
+  "devDependencies": {
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
