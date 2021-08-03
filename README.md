@@ -2,7 +2,7 @@
 
 > The leaderboard website displays scores submitted by different players.
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![image](https://user-images.githubusercontent.com/60612329/128012684-95ba7130-cc45-4bd6-8940-1c8545c120b6.png)
 
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service]().
 
@@ -14,7 +14,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-[Live Demo Link](/)
+[Live Demo Link](https://alexander16108.github.io/LeaderBoard/dist)
 
 ## Getting Started
 
