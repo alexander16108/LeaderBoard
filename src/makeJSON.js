@@ -3,7 +3,7 @@ const json = (name, score) => {
   const client = {
     client: name,
     score,
-  }
+  };
   return client;
 };
 
