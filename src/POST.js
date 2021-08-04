@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const sendData = (data) => {
-  axios.post(
+  axios
+  .post(
       'https://us-central1-js-capstone-backend.cloudfunctions.net/api/',
       data,
     )
