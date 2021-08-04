@@ -1,11 +1,10 @@
-import _ from 'lodash';
-function component() {
-  const element = document.createElement('div');
+import './style.css';
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return element;
-}
-
-document.body.appendChild(component());
+window.addEventListener('load', () => {
+  const list = document.querySelector('.ordered-score');
+  new Array(6).fill(1).forEach((_, index) => {
+    const li = document.createElement('li');
+    li.innerText = `Name: ${index}`;
+    list.appendChild(li);
+  });
+});
