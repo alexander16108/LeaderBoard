@@ -13,7 +13,7 @@ submitScore.addEventListener('click', (event) => {
   const name = document.getElementById('name-input').value;
   const score = document.getElementById('number-input').value;
   if (name.length > 0 && score.length > 0) {
-    sendData(makeJSON(name, score));
+    sendData(json(name, score));
     document.getElementById('name-input');
     document.getElementById('number-input');
   }
