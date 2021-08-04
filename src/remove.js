@@ -1,4 +1,3 @@
-
 const remove = () => {
   const ul = document.getElementById('score');
   let child = ul.lastElementChild;
