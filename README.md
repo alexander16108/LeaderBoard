@@ -1,6 +1,6 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> The leaderboard website displays scores submitted by different players. 👋
+> The leaderboard website displays scores submitted by different players. ⬇️
 
 ![image](https://user-images.githubusercontent.com/60612329/128012684-95ba7130-cc45-4bd6-8940-1c8545c120b6.png)
 
@@ -9,12 +9,21 @@ The leaderboard website displays scores submitted by different players. It also 
 
 
 ## Project Milestones 👨‍💼
+
+### Milestone 1 💼
 - Initialized and clone the github page.
 - Installed the webpack with it dependencies.
 - Added Linters [for error checking in Javascript, CSS and HTMl](https://github.com/microverseinc/linters-config/tree/master/html-css-js).
 - Created the basic template for the project using the wireframe required for this project. [check here ◀️ ](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png).
 - Pushed change and created a pull request for a code review from the TSE. [check it out ⚡](https://github.com/alexander16108/LeaderBoard/pull/1).
 - Merge pull request with the ``dev`` head branch with keeeping in mind that this is a project that requires the use of git flow.
+
+
+### Milestone 2
+
+
+### Milestone 3
+
 
 ## Built With 🏗️
 
