@@ -1,6 +1,6 @@
 
 const remove = () => {
-  const ul = document.getElementById('');
+  const ul = document.getElementById('score');
   let child = ul.lastElementChild;
   while (child) {
     ul.removeChild(child);

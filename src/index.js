@@ -20,3 +20,9 @@ submitScore.addEventListener('click', (event) => {
 });
 
 getUser(url);
+
+const reload = document.getElementById('Refresh-page');
+reload.addEventListener('click', () => {
+  remove();
+  getUser(url);
+});
