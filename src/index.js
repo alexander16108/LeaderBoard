@@ -4,7 +4,7 @@ import json from './makeJSON';
 import getUser from './GET';
 import remove from './remove';
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/wwkGIA4V1TgaiFdJxS1PX0cI73nUXzQQnx5UI2Pc/scores';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
 const submitScore = document.getElementById('submitInput');
 
