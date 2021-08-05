@@ -1,10 +1,10 @@
 const json = (name, score) => {
   score = Number(score);
-  const client = {
-    client: name,
+  const user = {
+    user: name,
     score,
   };
-  return client;
+  return user;
 };
 
 export default json;

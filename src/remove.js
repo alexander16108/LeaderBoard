@@ -1,5 +1,5 @@
 const remove = () => {
-  const ul = document.getElementById('score');
+  const ul = document.getElementById('scoreList');
   let child = ul.lastElementChild;
   while (child) {
     ul.removeChild(child);
