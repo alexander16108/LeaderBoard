@@ -49,15 +49,15 @@
   margin: 10px;
 }
 
-.table {
+li {
   color: black;
 }
 
-.table:nth-child(odd) {
-  background-color: rgb(180, 180, 180);
+li:nth-child(odd) {
+  background-color: rgb(143, 132, 132);
 }
 
-.table:nth-child(even) {
+li:nth-child(even) {
   background-color: #fff;
 }
 

@@ -4,12 +4,8 @@ import {
 } from './displayScores'
 
 const displayResult = () => {
-  const ul = document.getElementById('scoreList');
+  const ul = document.getElementById('scores');
   const li = document.createElement('li');
-  li.classList.add('table');
-  // li.innerHTML = `
-
-  // `;
   ul.append(li);
 
   getGame();

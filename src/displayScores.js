@@ -20,9 +20,9 @@ const getGame = async () => {
 
 const refreshPage = async () => {
   const gameId = localStorage.getItem('gameId');
-  const list = document.getElementById('scoreList');
+  const list = document.getElementById('scores');
   list.innerHTML = '';
-  const response = await fetch(`${Url}games/${gameId}/scoreList`);
+  const response = await fetch(`${Url}games/${gameId}/scores`);
   const scores = await response.json();
   scores.result.forEach((score) => {
     const li = document.createElement('li');
@@ -42,7 +42,7 @@ const submit = async (e) => {
     user: name.value,
     score: score.value,
   };
-  await fetch(`${Url}games/${gameId}/scoreList`, {
+  await fetch(`${Url}games/${gameId}/scores`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
