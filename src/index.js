@@ -1,28 +1,21 @@
 import './style.css';
-import sendData from './POST.js';
-import json from './makeJSON.js';
-import getUser from './GET.js';
-import remove from './remove.js';
+import {
+  getGame, refreshPage, submit,
+} from './displayScores'
 
-const source = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/wwkGIA4V1TgaiFdJxS1PX0cI73nUXzQQnx5UI2Pc/scores';
+const displayResult = () => {
+  const ul = document.getElementById('scoreList');
+  const li = document.createElement('li');
+  li.classList.add('table');
+  // li.innerHTML = `
 
-const submitScore = document.getElementById('submit');
+  // `;
+  ul.append(li);
 
-submitScore.addEventListener('click', (e) => {
-  e.preventDefault();
-  const name = document.getElementById('clientName').value;
-  const score = document.getElementById('clientScore').value;
-  if (name.length > 0 && score.length > 0) {
-    sendData(json(name, score));
-    document.getElementById('clientName').value = '';
-    document.getElementById('clientScore').value = '';
-  }
-});
+  getGame();
+  refreshPage();
+  document.getElementById('Refresh').addEventListener('click', refreshPage);
+  document.getElementById('submit').addEventListener('click', submit);
+};
 
-getUser(source);
-
-const reload = document.getElementById('Refresh');
-reload.addEventListener('click', () => {
-  remove();
-  getUser(source);
-});
+document.addEventListener('DOMContentLoaded', displayResult)

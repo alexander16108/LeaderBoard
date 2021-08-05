@@ -34,7 +34,6 @@
   },
   "homepage": "https://github.com/alexander16108/LeaderBoard#readme",
   "dependencies": {
-    "axios": "^0.21.1",
     "lodash": "^4.17.21"
   }
 }

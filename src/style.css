@@ -34,10 +34,9 @@
 }
 
 .wd {
-  position: absolute;
-  top: 38%;
-  right: 11%;
-  width: 5%;
+  width: 15%;
+  margin-left: 85%;
+  justify-self: self-end;
 }
 
 .ordered-score {
