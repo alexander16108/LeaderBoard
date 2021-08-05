@@ -50,15 +50,15 @@
   margin: 10px;
 }
 
-li {
+.table {
   color: black;
 }
 
-li:nth-child(odd) {
+.table:nth-child(odd) {
   background-color: rgb(180, 180, 180);
 }
 
-li:nth-child(even) {
+.table:nth-child(even) {
   background-color: #fff;
 }
 

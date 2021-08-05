@@ -7,6 +7,8 @@ const displayResult = (user) => {
   const Text = document.createElement('p');
   Text.innerHTML = `${user.user}: ${user.score}`;
 
+
+
   li.appendChild(Text);
   ul.appendChild(li);
 };
