@@ -1,7 +1,7 @@
 import './style.css';
 import {
   getGame, refreshPage, submit,
-} from './displayScores'
+} from './displayScores';
 
 const displayResult = () => {
   const ul = document.getElementById('scores');
@@ -14,4 +14,4 @@ const displayResult = () => {
   document.getElementById('submit').addEventListener('click', submit);
 };
 
-document.addEventListener('DOMContentLoaded', displayResult)
+document.addEventListener('DOMContentLoaded', displayResult);
