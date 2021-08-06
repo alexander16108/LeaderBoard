@@ -1,11 +1,11 @@
-  /********************
-        global styling 
+/********************
+        global styling
   ********************/
 * {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 header {
@@ -38,7 +38,7 @@ li:nth-child(odd) {
   padding: 2em;
 }
 
-input::placeholder{
+input::placeholder {
   color: rgb(204, 196, 91);
 }
 
@@ -103,5 +103,4 @@ ul {
     width: 25%;
     margin-left: 70%;
   }
-
 }
