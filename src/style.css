@@ -17,8 +17,7 @@ h1 {
   padding-top: 20px;
 }
 
-body,
-li:nth-child(odd) {
+body {
   background-color: rgb(214, 200, 142);
 }
 
@@ -65,10 +64,6 @@ input::placeholder {
   justify-self: self-end;
 }
 
-li {
-  color: black;
-}
-
 .ordered-score {
   border: 1px solid black;
 }
@@ -77,6 +72,10 @@ li {
   display: flex;
   flex-direction: row;
   margin: 10px;
+}
+
+li {
+  color: black;
 }
 
 li:nth-child(odd) {
