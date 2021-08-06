@@ -79,11 +79,11 @@ li {
   color: black;
 }
 
-li:nth-child(odd) {
+li li:nth-child(odd) {
   background-color: rgb(148, 132, 89);
 }
 
-li:nth-child(even) {
+li li:nth-child(even) {
   background-color: #fff;
 }
 
