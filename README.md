@@ -2,7 +2,7 @@
 
 > The leaderboard website displays scores submitted by different players. ⬇️
 
-![image](https://user-images.githubusercontent.com/60612329/128012684-95ba7130-cc45-4bd6-8940-1c8545c120b6.png)
+![image](https://user-images.githubusercontent.com/60612329/128517149-4877d8b1-c55c-49ce-8b90-f0a77a43e7be.png)
 
 ## Description
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
@@ -33,7 +33,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo 📺
 
-[Live Demo Link](https://alexander-leaderboard-game.netlify.app/)
+[Live Demo Link](https://deploy-preview-4--alexander-leaderboard-game.netlify.app)
 
 ## Getting Started
 
