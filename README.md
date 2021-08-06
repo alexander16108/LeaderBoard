@@ -20,7 +20,10 @@ The leaderboard website displays scores submitted by different players. It also 
 
 
 ### Milestone 2
-
+- Create a new game using API
+- Implement the "Refresh" button (receiving data from the API and parsing the JSON)
+- Implement the form "Submit" button (sending data to the API)
+- Use async and await JavaScript features to consume the API
 
 ### Milestone 3
 - I implemented some basic styling In addition to the previous styling I made in the first milestone.
