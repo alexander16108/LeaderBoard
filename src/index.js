@@ -6,9 +6,8 @@ import {
 const displayResult = () => {
   const ul = document.getElementById('scores');
   const li = document.createElement('li');
-  li.classList.add = 'table'
+  li.classList.add = 'table';
   ul.append(li);
-
 
   getGame();
   refreshPage();
