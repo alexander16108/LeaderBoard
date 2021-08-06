@@ -75,15 +75,15 @@ input::placeholder {
   margin: 10px;
 }
 
-li:nth-child(odd) {
-  background-color: rgb(148, 132, 89);
-}
-
 li {
   color: black;
 }
 
-li:nth-child(even) {
+.table:nth-child(odd) {
+  background-color: rgb(148, 132, 89);
+}
+
+.table:nth-child(even) {
   background-color: #fff;
 }
 
