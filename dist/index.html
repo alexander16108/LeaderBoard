@@ -21,7 +21,7 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
       <div class="scores display">
         <div class="head mb-20">
           <h2>Recent Scores</h2>
-          <button type="button" class="b-1 btn  primary-button Refresh-page">Refresh</button>
+          <button type="submit" class="b-1 btn  primary-button Refresh-page" id="Refresh">Refresh</button>
         </div>
             <ul class="ordered-score" id="score"></ul>
       </div>
@@ -31,20 +31,20 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
 
           <input type="text"
            name="name"
-            id="name-input" 
+            id="name" 
             class="score-input p-1"
             required 
             placeholder="Input your name">
 
           <input type="number" 
           name="number" 
-          id="number-input" 
+          id="number" 
           class="score p-1"
           min="0"
           required 
           placeholder="input your score">
 
-          <button class="btn b-1 wd">submit</button>
+          <button class="btn b-1 wd" id="submit">submit</button>
         </form>
       </div>
     </div>
@@ -52,5 +52,8 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
     <div class="container"></div>
   </main>
 </div>
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 </html>

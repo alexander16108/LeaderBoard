@@ -1,10 +1,17 @@
 import './style.css';
+import {
+  getGame, refreshPage, submit,
+} from './displayScores';
 
-window.addEventListener('load', () => {
-  const list = document.querySelector('.ordered-score');
-  new Array(6).fill(1).forEach((_, index) => {
-    const li = document.createElement('li');
-    li.innerText = `Name: ${index}`;
-    list.appendChild(li);
-  });
-});
+const displayResult = () => {
+  const ul = document.getElementById('scores');
+  const li = document.createElement('li');
+  ul.append(li);
+
+  getGame();
+  refreshPage();
+  document.getElementById('Refresh').addEventListener('click', refreshPage);
+  document.getElementById('submit').addEventListener('click', submit);
+};
+
+document.addEventListener('DOMContentLoaded', displayResult);
