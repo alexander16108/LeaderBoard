@@ -23,7 +23,10 @@ The leaderboard website displays scores submitted by different players. It also 
 
 
 ### Milestone 3
-
+- I implemented some basic styling In addition to the previous styling I made in the first milestone.
+- I fixed the lInter error and Followed up with the code guidelines (DRY, YAGNI, KISS).
+- Created a simple pull request for code review and request to merge files to the main DEVELOPMENT branch for publishing
+- Deployed project on the web using Nelify a free hosting site in collaboration with GitHub.
 
 ## Built With 🏗️
 
